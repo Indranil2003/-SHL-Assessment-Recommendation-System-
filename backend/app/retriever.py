@@ -20,8 +20,8 @@ class AssessmentRetriever:
             axis=1  
         )  
         return self.model.encode(assessment_texts.tolist(), convert_to_tensor=True)  
-
-    def search(self, query: str, top_k: int = 10):  
+        
+    def search(self, query: str, top_k: int = 10):                 
         # Embed the query  
         query_embedding = self.model.encode(query, convert_to_tensor=True)  
         scores = util.cos_sim(query_embedding, self.assessment_embeddings)[0]  
