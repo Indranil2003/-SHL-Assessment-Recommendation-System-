@@ -17,7 +17,7 @@ def read_root():
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "https://shl-assessment-recommendation-system-lac.vercel.app/",
+        "https://shl-assessment-recommendation-system-lac.vercel.app",
         "http://localhost:5173",
         "http://127.0.0.1:5173",
     ],
