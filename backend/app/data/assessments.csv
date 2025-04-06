@@ -1,0 +1,67 @@
+Assessment Name,URL,Remote Testing Support,Adaptive/IRT Support,Duration,Test Type,Skills
+Verbal Reasoning Test,https://www.shl.com/shldirect/en/example-questions/verbal-reasoning/,Yes,No,20,Cognitive,Verbal Reasoning
+Numerical Reasoning Test,https://www.shl.com/shldirect/en/example-questions/numerical-reasoning/,Yes,No,25,Cognitive,Numerical Reasoning
+Inductive Reasoning Test,https://www.shl.com/shldirect/en/example-questions/inductive-reasoning/,Yes,No,30,Cognitive,Inductive Reasoning
+Situational Judgment Test,https://www.shl.com/shldirect/en/example-questions/situational-judgement/,Yes,No,35,Behavioral,Decision Making
+Personality Questionnaire (OPQ),https://www.shl.com/solutions/products/assessments/personality-assessment/shl-occupational-personality-questionnaire-opq/,Yes,Yes,45,Personality,Personality Traits
+Mechanical Comprehension Test,https://www.shl.com/c/global/ibm-kenexa-catalog/view/34471-verify-mechanical-comprehension-next-generation/,Yes,No,25,Cognitive,Mechanical Understanding
+Project Management Skills Test,https://www.shl.com/solutions/products/product-catalog/view/project-management-2013/,Yes,No,40,Technical,Project Management
+Reading Comprehension Test,https://www.shl.com/solutions/products/product-catalog/view/reading-comprehension-english-v1/,Yes,No,20,Cognitive,Reading Comprehension
+Data Entry Speed and Accuracy Test,https://www.shl.com/solutions/products/product-catalog/view/data-entry-ten-key-split-screen/,Yes,No,15,Technical,Data Entry
+Java Programming Test,https://www.shl.com/solutions/products/product-catalog/view/java-8-new/,Yes,Yes,40,Technical,Java
+C++ Programming Test,https://www.shl.com/solutions/products/product-catalog/view/c-programming-new-4122/,Yes,Yes,40,Technical,C++
+Network Administration Test,https://www.shl.com/c/global/ibm-kenexa-catalog/view/33442-network-administration,Yes,No,45,Technical,Networking
+Accounting Principles Test,https://online.shl.com/us/en-us/products/financialaccounting,Yes,No,35,Technical,Accounting
+Marketing Concepts Test,https://www.shl.com/solutions/products/product-catalog/view/marketing-new/,Yes,No,30,Technical,Marketing
+Human Resources Fundamentals Test,https://www.shl.com/solutions/products/product-catalog/view/human-resources-new/,Yes,No,30,Technical,Human Resources
+Linux Administration Test,https://www.shl.com/solutions/products/product-catalog/view/linux-administration-new/,Yes,No,45,Technical,Linux Administration
+Desktop Support Test,https://www.shl.com/solutions/products/product-catalog/view/desktop-support-new/,Yes,No,35,Technical,IT Support
+Customer Service Phone Solution,https://www.shl.com/solutions/products/product-catalog/view/customer-service-phone-solution/,Yes,No,30,Behavioral,Customer Service Skills
+Sales Professional Solution,https://www.shl.com/solutions/products/product-catalog/view/sales-professional-7-0-solution/,Yes,No,35,Behavioral,Sales Skills
+Microservices Test,https://www.shl.com/solutions/products/product-catalog/view/microservices-new/,Yes,No,7,Technical,Microservices Architecture
+Tableau Test,https://www.shl.com/solutions/products/product-catalog/view/tableau-new/,Yes,No,8,Technical,Tableau
+Operations Management Test,https://www.shl.com/solutions/products/product-catalog/view/operations-management-new/,Yes,No,7,Technical,Operations Management
+.NET Framework 2.0,https://www.shl.com/c/global/ibm-kenexa-catalog/view/32742-dot-net-framework-2-0,Yes,No,40,Technical,.NET Framework
+.NET Framework 3.0,https://www.shl.com/c/global/ibm-kenexa-catalog/view/32743-dot-net-framework-3-0,Yes,No,40,Technical,.NET Framework
+.NET Framework 4.0,https://www.shl.com/c/global/ibm-kenexa-catalog/view/32744-dot-net-framework-4-0,Yes,No,40,Technical,.NET Framework
+.NET Framework 4.5,https://www.shl.com/c/global/ibm-kenexa-catalog/view/32745-dot-net-framework-4-5,Yes,No,40,Technical,.NET Framework
+.NET Framework 4.7,https://www.shl.com/c/global/ibm-kenexa-catalog/view/32746-dot-net-framework-4-7,Yes,No,40,Technical,.NET Framework
+.NET Multithreading,https://www.shl.com/c/global/ibm-kenexa-catalog/view/32747-dot-net-multithreading,Yes,No,40,Technical,Multithreading
+Accounting Principles Test,https://www.shl.com/solutions/products/product-catalog/view/accounting-principles-new/,Yes,No,35,Technical,Accounting
+Adobe Photoshop Test,https://www.shl.com/solutions/products/product-catalog/view/adobe-photoshop-new/,Yes,No,30,Technical,Adobe Photoshop
+Agile Project Management Test,https://www.shl.com/solutions/products/product-catalog/view/agile-project-management/,Yes,No,40,Technical,Agile Project Management
+Android Programming Test,https://www.shl.com/solutions/products/product-catalog/view/android-programming-new/,Yes,No,40,Technical,Android Programming
+AngularJS Test,https://www.shl.com/solutions/products/product-catalog/view/angularjs-new/,Yes,No,40,Technical,AngularJS
+Apache Spark Test,https://www.shl.com/solutions/products/product-catalog/view/apache-spark-new/,Yes,No,40,Technical,Apache Spark
+ASP.NET MVC Test,https://www.shl.com/solutions/products/product-catalog/view/asp-net-mvc-new/,Yes,No,40,Technical,ASP.NET MVC
+AWS Developer Test,https://www.shl.com/solutions/products/product-catalog/view/aws-developer-new/,Yes,No,40,Technical,AWS Development
+Azure Fundamentals Test,https://www.shl.com/solutions/products/product-catalog/view/azure-fundamentals-new/,Yes,No,40,Technical,Microsoft Azure
+Business Analysis Test,https://www.shl.com/solutions/products/product-catalog/view/business-analysis-new/,Yes,No,40,Technical,Business Analysis
+C Programming Test,https://www.shl.com/solutions/products/product-catalog/view/c-programming-new/,Yes,No,40,Technical,C Programming
+Cloud Computing Test,https://www.shl.com/solutions/products/product-catalog/view/cloud-computing-new/,Yes,No,40,Technical,Cloud Computing
+COBOL Programming Test,https://www.shl.com/solutions/products/product-catalog/view/cobol-programming-new/,Yes,No,40,Technical,COBOL Programming
+Data Analysis Test,https://www.shl.com/solutions/products/product-catalog/view/data-analysis-new/,Yes,No,40,Technical,Data Analysis
+Data Science Test,https://www.shl.com/solutions/products/product-catalog/view/data-science-new/,Yes,No,40,Technical,Data Science
+DevOps Test,https://www.shl.com/solutions/products/product-catalog/view/devops-new/,Yes,No,40,Technical,DevOps
+Django Framework Test,https://www.shl.com/solutions/products/product-catalog/view/django-framework-new/,Yes,No,40,Technical,Django Framework
+Docker Test,https://www.shl.com/solutions/products/product-catalog/view/docker-new/,Yes,No,40,Technical,Docker
+Embedded Systems Test,https://www.shl.com/solutions/products/product-catalog/view/embedded-systems-new/,Yes,No,40,Technical,Embedded Systems
+Ethical Hacking Test,https://www.shl.com/solutions/products/product-catalog/view/ethical-hacking-new/,Yes,No,40,Technical,Ethical Hacking
+Front-End Development Test,https://www.shl.com/solutions/products/product-catalog/view/front-end-development-new/,Yes,No,40,Technical,Front-End Development
+Go Programming Test,https://www.shl.com/solutions/products/product-catalog/view/go-programming-new/,Yes,No,40,Technical,Go Programming
+Hadoop Test,https://www.shl.com/solutions/products/product-catalog/view/hadoop-new/,Yes,No,40,Technical,Hadoop
+HTML5 Test,https://www.shl.com/solutions/products/product-catalog/view/html5-new/,Yes,No,40,Technical,HTML5
+iOS Programming Test,https://www.shl.com/solutions/products/product-catalog/view/ios-programming-new/,Yes,No,40,Technical,iOS Programming
+ITIL Foundation Test,https://www.shl.com/solutions/products/product-catalog/view/itil-foundation-new/,Yes,No,40,Technical,ITIL Framework
+Java Programming Test,https://www.shl.com/solutions/products/product-catalog/view/java-8-new/,Yes,Yes,40,Technical,Java
+JavaScript Test,https://www.shl.com/solutions/products/product-catalog/view/javascript-new/,Yes,No,40,Technical,JavaScript
+Jenkins Test,https://www.shl.com/solutions/products/product-catalog/view/jenkins-new/,Yes,No,40,Technical,Jenkins
+Kotlin Programming Test,https://www.shl.com/solutions/products/product-catalog/view/kotlin-programming-new/,Yes,No,40,Technical,Kotlin Programming
+Kubernetes Test,https://www.shl.com/solutions/products/product-catalog/view/kubernetes-new/,Yes,No,40,Technical,Kubernetes
+Linux Administration Test,https://www.shl.com/solutions/products/product-catalog/view/linux-administration-new/,Yes,No,45,Technical,Linux Administration
+Machine Learning Test,https://www.shl.com/solutions/products/product-catalog/view/machine-learning-new/,Yes,No,40,Technical,Machine Learning
+MATLAB Test,https://www.shl.com/solutions/products/product-catalog/view/matlab-new/,Yes,No,40,Technical,MATLAB
+Microsoft Excel Test,https://www.shl.com/solutions/products/product-catalog/view/microsoft-excel-new/,Yes,No,30,Technical,Microsoft Excel
+Microsoft PowerPoint Test,https://www.shl.com/solutions/products/product-catalog/view/microsoft-powerpoint-new/,Yes,No,30,Technical,Microsoft PowerPoint
+
+ 
