@@ -7,8 +7,8 @@ class AssessmentRetriever:
     def __init__(self, data: pd.DataFrame):  
         self.data = data  
         # Load a pre-trained model  
-        # self.model = SentenceTransformer('all-MiniLM-L6-v2')  
-        self.model = SentenceTransformer('all-roberta-large-v1') 
+        self.model = SentenceTransformer('all-MiniLM-L6-v2')  
+        # self.model = SentenceTransformer('all-roberta-large-v1') 
         # Embed the assessment texts  
         self.assessment_embeddings = self._embed_assessments()  
 
