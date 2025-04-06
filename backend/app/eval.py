@@ -36,7 +36,7 @@ def evaluate(test_cases, k=3):
         relevant = case['relevant']
 
         try:
-            response = requests.post("http://127.0.0.1:8000/recommend", json={
+            response = requests.post("https://shl-assessment-recommendation-s-production.up.railway.app/recommend", json={
                 "query": query,
                 "top_k": k
             })

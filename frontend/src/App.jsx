@@ -15,7 +15,7 @@ function App() {
 
     setLoading(true);
     try {
-      const response = await axios.post('http://127.0.0.1:8000/recommend', {
+      const response = await axios.post('https://shl-assessment-recommendation-s-production.up.railway.app/recommend', {
         query,
         top_k: 10
       });
