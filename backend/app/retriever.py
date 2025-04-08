@@ -35,14 +35,21 @@ class AssessmentRetriever:
         results = []  
         for score, idx in zip(top_results.values, top_results.indices):  
             row = self.data.iloc[int(idx)]  # Ensure idx is an integer  
-            results.append({  
-    "Assessment Name": row["Assessment Name"],  
-    "Link": row["URL"],  
-    "Remote Testing Support": row["Remote Testing Support"],  
-    "Adaptive/IRT Support": row["Adaptive/IRT Support"],  
-    "Duration": int(row["Duration"]),  
-    "Test Type": row["Test Type"],  
-    "Score": float(score)
+            results.append({              
+    # "Assessment Name": row["Assessment Name"],  
+    # "Link": row["URL"],  
+    # "Remote Testing Support": row["Remote Testing Support"],  
+    # "Adaptive/IRT Support": row["Adaptive/IRT Support"],  
+    # "Duration": int(row["Duration"]),  
+    # "Test Type": row["Test Type"],  
+    # "Score": float(score)
+            "url": row["URL"],
+            "adaptive_support": row["Adaptive/IRT Support"],
+            "description": f"{row['Assessment Name']} test assessing skills in {row['Skills']}.",
+            "duration": int(row["Duration"]),
+            "remote_support": row["Remote Testing Support"],
+            "test_type": [row["Test Type"]]
+
 })
 
         return results  

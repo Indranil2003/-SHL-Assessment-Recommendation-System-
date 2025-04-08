@@ -9,9 +9,13 @@ from app.retriever import AssessmentRetriever
 
 app = FastAPI()
 
-@app.get("/")
+# @app.get("/")
+# def read_root():
+#     return {"message": "SHL Recommendation API is live!"}
+
+@app.get("/health")
 def read_root():
-    return {"message": "SHL Recommendation API is live!"}
+    return { "status": "healthy"}
 
 # ✅ Allow CORS for frontend running on localhost:5173
 app.add_middleware(
