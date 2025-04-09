@@ -9,10 +9,7 @@ from app.retriever import AssessmentRetriever
 
 app = FastAPI()
 
-# @app.get("/")
-# def read_root():
-#     return {"message": "SHL Recommendation API is live!"}
-
+# ✅ Health check endpoint
 @app.get("/health")
 def read_root():
     return { "status": "healthy"}

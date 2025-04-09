@@ -1,6 +1,3 @@
-
-
-
 import { useState } from 'react';
 import axios from 'axios';
 import './App.css';
@@ -20,6 +17,7 @@ function App() {
         top_k: 10
       });
       setRecommendations(response.data.recommendations);
+      console.log(response.data.recommendations);
     } catch (error) {
       console.error('Error fetching recommendations:', error);
     } finally {
@@ -49,24 +47,25 @@ function App() {
       {!loading && recommendations.length === 0 && (
         <p className="no-results">No recommendations yet. Try a search!</p>
       )}
-
+     
       <div className="results-container">
-        {recommendations.map((item, index) => (
-          <div key={index} className="recommendation-card">
-            <h3 className="card-title">{item["Assessment Name"]}</h3>
-            <p>
-              <strong>URL:</strong>{' '}
-              <a href={item.Link} target="_blank" rel="noopener noreferrer">
-                {item.Link}
-              </a>
-            </p>
-            <p><strong>Remote Testing Support:</strong> {item["Remote Testing Support"]}</p>
-            <p><strong>Adaptive/IRT Support:</strong> {item["Adaptive/IRT Support"]}</p>
-            <p><strong>Duration:</strong> {item.Duration} mins</p>
-            <p><strong>Test Type:</strong> {item["Test Type"]}</p>
-          </div>
-        ))}
-      </div>
+  {recommendations.map((item, index) => (
+    <div key={index} className="recommendation-card">
+      <h3 className="card-title">{item.description}</h3>
+      <p>
+        <strong>URL:</strong>{' '}
+        <a href={item.url} target="_blank" rel="noopener noreferrer">
+          {item.url}
+        </a>
+      </p>
+      <p><strong>Remote Support:</strong> {item.remote_support}</p>
+      <p><strong>Adaptive Support:</strong> {item.adaptive_support}</p>
+      <p><strong>Duration:</strong> {item.duration} mins</p>
+      <p><strong>Test Type:</strong> {item.test_type}</p>
+    </div>
+  ))}
+</div>
+
     </div>
   );
 }
@@ -77,12 +76,9 @@ export default App;
 
 
 
-
-
-
 // import { useState } from 'react';
 // import axios from 'axios';
-// import './App.css'; // Import custom CSS
+// import './App.css';
 
 // function App() {
 //   const [query, setQuery] = useState('');
@@ -94,11 +90,12 @@ export default App;
 
 //     setLoading(true);
 //     try {
-//       const response = await axios.post('http://127.0.0.1:8000/recommend', {
+//       const response = await axios.post('https://shl-assessment-recommendation-s-production.up.railway.app/recommend', {
 //         query,
 //         top_k: 10
 //       });
 //       setRecommendations(response.data.recommendations);
+//       console.log(response.data.recommendations);
 //     } catch (error) {
 //       console.error('Error fetching recommendations:', error);
 //     } finally {
@@ -131,22 +128,14 @@ export default App;
 
 //       <div className="results-container">
 //         {recommendations.map((item, index) => (
-//           <a
-//             key={index}
-//             href={item.Link}
-//             target="_blank"
-//             rel="noopener noreferrer"
-//             className="recommendation-card-link"
-//           >
-//             <div className="recommendation-card">
-//               <h3 className="card-title">{item["Assessment Name"]}</h3>
-//               <p><strong>URL:</strong> {item.Link}</p>
-//               <p><strong>Remote Testing Support:</strong> {item["Remote Testing Support"]}</p>
-//               <p><strong>Adaptive/IRT Support:</strong> {item["Adaptive/IRT Support"]}</p>
-//               <p><strong>Duration:</strong> {item.Duration} mins</p>
-//               <p><strong>Test Type:</strong> {item["Test Type"]}</p>
-//             </div>
-//           </a>
+//           <div key={index} className="recommendation-card code-style">
+//             <p><strong>"url"</strong>: "<a href={item.url} target="_blank" rel="noopener noreferrer">{item.url}</a>"</p>
+//             <p><strong>"adaptive_support"</strong>: "{item.adaptive_support}"</p>
+//             <p><strong>"description"</strong>: "{item.description}"</p>
+//             <p><strong>"duration"</strong>: {item.duration}</p>
+//             <p><strong>"remote_support"</strong>: "{item.remote_support}"</p>
+//             <p><strong>"test_type"</strong>: [{item.test_type.map((type, i) => `"${type}"`).join(', ')}]</p>
+//           </div>
 //         ))}
 //       </div>
 //     </div>

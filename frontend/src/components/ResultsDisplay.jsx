@@ -1,28 +1,3 @@
-// // src/components/ResultsDisplay.jsx
-// import React from 'react';
-
-// function ResultsDisplay({ results }) {
-//   if (!results || results.length === 0) {
-//     return <p className="mt-4 text-gray-500">No results yet.</p>;
-//   }
-
-//   return (
-//     <div className="mt-4">
-//       <h2 className="text-lg font-bold mb-2">Recommendations:</h2>
-//       <ul className="list-disc ml-5 space-y-1">
-//         {results.map((item, index) => (
-//           <li key={index}>
-//             {item.title} ({item.skill} - {item.level}) - {item.duration} mins
-//           </li>
-//         ))}
-//       </ul>
-//     </div>
-//   );
-// }
-
-// export default ResultsDisplay;
-
-
 // New optimized code
 
 // import React from 'react';
