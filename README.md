@@ -54,7 +54,7 @@ Make sure the backend is running at `http://127.0.0.1:8000`.
 ```bash
 cd frontend
 npm install
-npm start
+npm run dev
 ```
 
 Access the app at http\://localhost:5173
